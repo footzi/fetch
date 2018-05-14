@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    button, input {
+        margin: 10px 0;
+        display: block;
+    }
+</style>
+<body>
+    <form>
+        <label for="name">Имя</label>
+        <input id="text" type="text" name="name" required>
+
+        <label for="female">Фамилия</label>
+        <input id="text" type="text" name="female">
+
+        <button type="submit" class="send-xhr">Отправить XRH</button>
+        <button type="submit" class="send-fetch">Отправить fetch</button>
+    </form>
+</body>
+
+<script src="xhr.js"></script>
+<script src="fetch.js"></script>
+</html>
